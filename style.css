@@ -1,0 +1,34 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .bird{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    animation: ggpro47 4s  infinite;
+  }
+  .bird      img{
+      width: 100%;
+  }
+  @keyframes ggpro47 {
+    0%{
+        top: 20%;
+        left: 100%;
+    }
+    100%{
+        top: 50%;
+    }
+    50%{
+       top: 50%;
+    }
+    110%{
+        top: 100%;
+    }
+    190%{
+        top: 50%;
+    }
+
+  }
